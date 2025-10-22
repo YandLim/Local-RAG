@@ -40,17 +40,33 @@ python main.py
 # Bot: Pokémon are creatures that inhabit the world of the Pokémon universe. The core idea revolves around friendship, adventure, and growth, both for the Pokémon themselves and their trainers.
 ```
 
-🛠️ Tech Stack
-- Python
-- FAISS
-- SentenceTransformers
-- Ollama
-- Tkinter
-- Dotenv
+## 🛠️ Tech Stack
+1. Python
+  - The main programming language that connects every part of the system.
+2. FAISS
+  - Used for fast vector similarity search.
+  - Stores and retrieves embeddings efficiently.
+3. SentenceTransformers
+  - Converts text and questions into embeddings.
+  - Works well with multiple languages including Bahasa Indonesia.
+4. NumPy
+  - Handles numerical operations and converts embeddings into the right format for FAISS.
+5. PyPDF2
+  - Reads and extracts text from PDF files before they are processed.
+6. Requests
+  - Sends the formatted question and context to Ollama’s local API for generating responses.
+7. Ollama
+  - Runs the local AI models like Phi-3, Mistral, or Gemma.
+  - Generates the final answer directly on your machine.
+8. Tkinter
+  - Opens a simple file picker so you can select the document to analyze.
+9. Dotenv
+  - Keeps model names and settings clean and separate inside a .env file.
 
 🫡 What I learned
 1. A good embedding model changes everything
 2. FAISS makes search extremely fast
 3. Keeping Retrieval and Generation separate makes the code easier to manage
 4. You can build a real RAG chatbot without relying on APIs
+
 
