@@ -1,0 +1,88 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.7">
+  <diagram name="Page-1" id="I9Xf6fQLF5tyiKTyBT7T">
+    <mxGraphModel dx="1092" dy="564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-kQOPNM_eJznGXMD5-9b-30" value="" style="rounded=0;whiteSpace=wrap;html=1;opacity=50;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="20" y="520" width="810" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="-kQOPNM_eJznGXMD5-9b-25" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;opacity=50;" vertex="1" parent="1">
+          <mxGeometry x="20" y="290" width="810" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="-kQOPNM_eJznGXMD5-9b-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-kQOPNM_eJznGXMD5-9b-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-kQOPNM_eJznGXMD5-9b-4" value="Sending the pdf File to program" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="350" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-kQOPNM_eJznGXMD5-9b-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-kQOPNM_eJznGXMD5-9b-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-kQOPNM_eJznGXMD5-9b-8" value="Devide texts&amp;nbsp;&lt;div&gt;chunk by chunk&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-kQOPNM_eJznGXMD5-9b-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-kQOPNM_eJznGXMD5-9b-10" target="-kQOPNM_eJznGXMD5-9b-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-kQOPNM_eJznGXMD5-9b-10" value="Store the data into vector Database" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-kQOPNM_eJznGXMD5-9b-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-kQOPNM_eJznGXMD5-9b-12" target="-kQOPNM_eJznGXMD5-9b-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-kQOPNM_eJznGXMD5-9b-12" value="User enters a question" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="550" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-kQOPNM_eJznGXMD5-9b-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-kQOPNM_eJznGXMD5-9b-14" target="-kQOPNM_eJznGXMD5-9b-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="585" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-kQOPNM_eJznGXMD5-9b-14" value="Convert the question into vector" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="555" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-kQOPNM_eJznGXMD5-9b-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-kQOPNM_eJznGXMD5-9b-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="585" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-kQOPNM_eJznGXMD5-9b-16" value="Search the relevant chunks from DB" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="555" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-kQOPNM_eJznGXMD5-9b-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-kQOPNM_eJznGXMD5-9b-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-kQOPNM_eJznGXMD5-9b-18" value="Pass the question and relevant context chunks to Ai" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="555" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-kQOPNM_eJznGXMD5-9b-21" value="The Ai answer the question from relevant context" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="700" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-kQOPNM_eJznGXMD5-9b-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-kQOPNM_eJznGXMD5-9b-8" target="-kQOPNM_eJznGXMD5-9b-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="390" as="targetPoint" />
+            <mxPoint x="400" y="390" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-kQOPNM_eJznGXMD5-9b-6" value="Convert the chunks texts into vectors" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-kQOPNM_eJznGXMD5-9b-26" value="Document Ingestion Phase" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="300" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-kQOPNM_eJznGXMD5-9b-36" value="Question Answering Phase" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="660" width="210" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
