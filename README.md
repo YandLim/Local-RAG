@@ -63,10 +63,11 @@ python main.py
 9. Dotenv
   - Keeps model names and settings clean and separate inside a .env file.
 
-🫡 What I learned
+## 🫡 What I learned
 1. A good embedding model changes everything
 2. FAISS makes search extremely fast
 3. Keeping Retrieval and Generation separate makes the code easier to manage
 4. You can build a real RAG chatbot without relying on APIs
+
 
 
