@@ -1,4 +1,4 @@
-# [LLM_Local_RAG](https://github.com/YandLim/Local-RAG)
+# [🤖 LLM_Local_RAG](https://github.com/YandLim/Local-RAG)
 A simple and fast local RAG chatbot built with Python, FAISS, and Ollama.
 It reads your own documents like PDFs, finds the most relevant info, and gives clear answers using a local AI model.
 No API keys, no internet, everything runs on your machine.
@@ -68,6 +68,7 @@ python main.py
 2. FAISS makes search extremely fast
 3. Keeping Retrieval and Generation separate makes the code easier to manage
 4. You can build a real RAG chatbot without relying on APIs
+
 
 
 
