@@ -1,6 +1,6 @@
 # [🤖 LLM_Local_RAG](https://github.com/YandLim/Local-RAG)
 A simple and fast local RAG chatbot built with Python, FAISS, and Ollama.
-It reads your own documents like PDFs, finds the most relevant info, and gives clear answers using a local AI model.
+It reads your personal documents (PDFs), finds the most relevant info, and gives clear answers using a local AI model.
 No API keys, no internet, everything runs on your machine.
 
 ## ✨ The story behind this project
@@ -28,17 +28,21 @@ It’s simple, fast, and works offline, which was exactly the goal.
 ## 🧩 System Architecture
 ![Architecture](Workflow/Local_RAG.png)
 
+Designed for clarity — simple enough to extend with Chroma or LangChain later.
+
 Two main sections:
 - Retrieval – handles reading, embedding, and searching chunks
 - Generation – builds the prompt and generates the final answer
 
-## 💻 Example Usage
+## 💻 Example Usage and Ouput
 ```
 python main.py
 # Choose a PDF file
 # Ask: What Is Pokemon?
 # Bot: Pokémon are creatures that inhabit the world of the Pokémon universe. The core idea revolves around friendship, adventure, and growth, both for the Pokémon themselves and their trainers.
 ```
+
+![Output Example](files/Output%20Pic.png)
 
 ## 🛠️ Tech Stack
 1. Python
