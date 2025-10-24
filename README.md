@@ -28,11 +28,11 @@ It’s simple, fast, and works offline, which was exactly the goal.
 ## 🧩 System Architecture
 ![Architecture](Workflow/Local_RAG.png)
 
-Designed for clarity — simple enough to extend with Chroma or LangChain later.
-
 Two main sections:
 - Retrieval – handles reading, embedding, and searching chunks
 - Generation – builds the prompt and generates the final answer
+
+Designed for clarity — simple enough to extend with Chroma or LangChain later.
 
 ## 💻 Example Usage and Ouput
 ```
