@@ -1,3 +1,8 @@
+"""
+This function use for split normal text into chunks. Sentencec by sentence 
+and convert the chunks into vector 
+"""
+
 # Import library
 import numpy as np
 

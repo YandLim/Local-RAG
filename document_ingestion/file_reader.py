@@ -1,3 +1,9 @@
+"""
+This functions main purpose is to pick a PDF file path
+from local directory, Then read and convert PDF file into 
+Text
+"""
+
 # Import Libraries
 from tkinter import Tk, filedialog
 from PyPDF2 import PdfReader
