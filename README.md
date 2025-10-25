@@ -26,7 +26,7 @@ It’s simple, fast, and works offline, which was exactly the goal.
 - Sends them to the local AI model and returns the answer
   
 ## 🧩 System Architecture
-![Architecture](Workflow/Local_RAG.png)
+<img src="Workflow/Local_RAG.png" alt="Architecture" width=700>
 
 Two main sections:
 - Retrieval – handles reading, embedding, and searching chunks
@@ -72,6 +72,7 @@ python main.py
 2. FAISS makes search extremely fast
 3. Keeping Retrieval and Generation separate makes the code easier to manage
 4. You can build a real RAG chatbot without relying on APIs
+
 
 
 
